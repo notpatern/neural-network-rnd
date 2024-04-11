@@ -23,7 +23,7 @@ namespace neural_network_rnd.Classes {
 
         double Error {
             get { return m_errorl; }
-            set { m_errorl = value; }
+            set { m_error = value; }
         }
 
         Dictionary<INeuronSignal, NeuralFactor> Input {
